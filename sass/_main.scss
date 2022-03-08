@@ -1,0 +1,18 @@
+@import "./utils/variables.scss";
+
+@import "./layout/nav.scss";
+
+@import "./base/base.scss";
+
+.restaurant_selection .restaurants .active a,
+.restaurant_selection .restaurants a:hover,
+.restaurant_selection .restaurants a,
+#zmodal .modal-header,
+#cart #cart-toggle-btn .cart_nb_items,
+.tag_list,
+.tag_list a.nobg:hover .lab,
+.tag_list .active a.nobg .lab,
+#zmodal .part h4,
+#zmodal .optionbox h4 {
+	background-color: #D40028;
+}
