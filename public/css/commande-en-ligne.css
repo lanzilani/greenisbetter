@@ -1,0 +1,51 @@
+nav {
+  width: 100%;
+  background-color: #fb9f94;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.9vh 4em;
+}
+nav img {
+  width: 2em;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.7em;
+}
+nav ul li {
+  display: flex;
+  margin: 0 0.8vh;
+  font-size: 0.9em;
+  letter-spacing: -0.05em;
+}
+nav ul .nav_elements a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #fb9f94;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri", "sans-serif";
+}
+
+.restaurant_selection .restaurants .active a,
+.restaurant_selection .restaurants a:hover,
+.restaurant_selection .restaurants a,
+#zmodal .modal-header,
+#cart #cart-toggle-btn .cart_nb_items,
+.tag_list,
+.tag_list a.nobg:hover .lab,
+.tag_list .active a.nobg .lab,
+#zmodal .part h4,
+#zmodal .optionbox h4 {
+  background-color: #D40028;
+}
+
+/*# sourceMappingURL=commande-en-ligne.css.map */

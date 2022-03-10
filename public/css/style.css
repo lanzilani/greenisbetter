@@ -1,0 +1,165 @@
+
+
+.navbar
+{
+    background-color: #fb9f94;
+    font-size: 0.9em;
+    font-family: 'calibri', 'sans-serif';
+    padding: 4em;
+    
+}
+
+.navbar-brand{
+    width: 2em;
+    
+}
+
+
+
+.navbar li a{
+    color: white;
+    
+}
+
+.navbar li a:hover{
+    color: white;
+    
+}
+.navbar li a:focus{
+    color: white;
+    
+}
+
+.dropdown-menu{
+    background-color: #fb9f94 !important;
+    border: 1px solid #fb9f94 !important;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #fb9f94;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #fb9f94 !important;
+    border: 1px solid white !important;
+    
+    
+}
+
+.btn-primary:hover{
+    color: #fb9f94 !important;
+    background-color: white !important;
+    border: 1px solid #fb9f94 !important;
+    
+}
+
+.navbar-toggler{
+    width:3em;
+    height:3em;
+    position: relative;
+    transition: 200ms ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border:0;
+}
+
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 0.05em;
+    width: 100%;
+    background-color: white;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 200ms ease-in-out;
+}
+
+.middle-bar{
+    margin-top: 0px;
+}
+
+.navbar-toggler .top-bar{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -0.7em;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 0.7em;
+    transform: rotate(0deg);
+}
+
+.banniere_container-fluid{
+    height: 500px;
+    overflow: hidden;
+    
+    position: relative;
+}
+.banniere{
+    width: 100%;
+    
+    
+}
+.banniere_container-fluid p{
+    position: absolute;
+    top: 170px;
+    left: 39%;
+    color: white;
+    font-size: 3em;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 19rem;
+    font-family:'calibri', Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+footer h1{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: -0.1vh;
+}
+
+footer li{
+list-style-type: none;
+padding: 0.5vh;
+text-decoration: underline;
+}
+
